@@ -15,6 +15,10 @@
   --fg: #ff7c44;
 }
 
+header h1{
+  position: relative;
+}
+
 html,
 body {
   height: 100vh;
@@ -92,8 +96,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: #00000025;
 }
 video {
   max-height: 50%;
